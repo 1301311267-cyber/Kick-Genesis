@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Designer Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Shoe Designer Studio</h1>
+            <nav>
+                <button class="nav-btn active">Design</button>
+                <button class="nav-btn">Gallery</button>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Design Canvas -->
+            <section class="canvas-section">
+                <div class="shoe-preview">
+                    <div class="shoe-silhouette">
+                        <div class="shoe-body"></div>
+                        <div class="shoe-sole"></div>
+                        <div class="shoe-laces"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Design Controls -->
+            <section class="controls-section">
+                <!-- Style Options -->
+                <div class="control-group">
+                    <h3>Style</h3>
+                    <div class="style-options">
+                        <button class="style-btn active">Sneaker</button>
+                        <button class="style-btn">Boot</button>
+                        <button class="style-btn">Dress</button>
+                        <button class="style-btn">Casual</button>
+                    </div>
+                </div>
+
+                <!-- Color Palette -->
+                <div class="control-group">
+                    <h3>Colors</h3>
+                    <div class="color-palette">
+                        <div class="color-option active" style="background-color: #ff6b6b;"></div>
+                        <div class="color-option" style="background-color: #4ecdc4;"></div>
+                        <div class="color-option" style="background-color: #45b7d1;"></div>
+                        <div class="color-option" style="background-color: #f9ca24;"></div>
+                        <div class="color-option" style="background-color: #6c5ce7;"></div>
+                        <div class="color-option" style="background-color: #a0a0a0;"></div>
+                        <div class="color-option" style="background-color: #2d3436;"></div>
+                        <div class="color-option" style="background-color: #ffffff;"></div>
+                    </div>
+                </div>
+
+                <!-- Material Options -->
+                <div class="control-group">
+                    <h3>Material</h3>
+                    <div class="material-options">
+                        <button class="material-btn active">Leather</button>
+                        <button class="material-btn">Canvas</button>
+                        <button class="material-btn">Suede</button>
+                        <button class="material-btn">Mesh</button>
+                    </div>
+                </div>
+
+                <!-- Size Selector -->
+                <div class="control-group">
+                    <h3>Size</h3>
+                    <select class="size-selector">
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8" selected>8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                    <button class="btn-primary">Save Design</button>
+                    <button class="btn-secondary">Reset</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Design Gallery -->
+        <section class="gallery-section">
+            <h2>Your Designs</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-shoe"></div>
+                    <p>Design #1</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-shoe"></div>
+                    <p>Design #2</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-shoe"></div>
+                    <p>Design #3</p>
+                </div>
+                <div class="gallery-item add-new">
+                    <div class="plus-icon">+</div>
+                    <p>New Design</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
