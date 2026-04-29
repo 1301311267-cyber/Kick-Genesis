@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background-color: #920303d6;
+    color: #faf7f7;
     line-height: 1.6;
 }
 
@@ -23,7 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #f6f6f8;
     margin-bottom: 30px;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .nav-btn {
     background: none;
-    border: 1px solid #444;
+    border: 1px solid #fefefe;
     color: #ccc;
     padding: 10px 20px;
     margin-left: 10px;
@@ -46,7 +46,7 @@ body {
 
 .nav-btn.active,
 .nav-btn:hover {
-    background-color: #333;
+    background-color: #171313;
     color: #fff;
     border-color: #666;
 }
@@ -64,7 +64,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2a2a2a;
+    background-color: #fdfdfd;
     border-radius: 8px;
     padding: 40px;
     min-height: 500px;
@@ -83,7 +83,7 @@ body {
 .shoe-body {
     width: 280px;
     height: 120px;
-    background-color: #ff6b6b;
+    background-color: #000000;
     border-radius: 60px 20px 20px 60px;
     position: absolute;
     top: 20px;
@@ -94,7 +94,7 @@ body {
 .shoe-sole {
     width: 300px;
     height: 40px;
-    background-color: #333;
+    background-color: #7c0000;
     border-radius: 150px;
     position: absolute;
     bottom: 0;
@@ -106,7 +106,7 @@ body {
     height: 60px;
     background: repeating-linear-gradient(
         45deg,
-        #666,
+        #e75b5b,
         #666 2px,
         transparent 2px,
         transparent 8px
@@ -119,7 +119,7 @@ body {
 
 /* Controls Section */
 .controls-section {
-    background-color: #2a2a2a;
+    background-color: #000000;
     border-radius: 8px;
     padding: 30px;
 }
